@@ -5,24 +5,6 @@
 
 
 def gcd(a, b):
-    # if a > b:
-    #     x = a
-    #     y = b
-    # else:
-    #     x = b
-    #     y = a
-
-    # res = x - y
-
-    # if res == 0:
-    #     return x
-
-    # return gcd(res, b) if a > b else gcd(a, res)
-    # if a > b:
-    #     return gcd(res, b)
-
-    # return gcd(a, res)
-
     if a > b:
         remainder = a - b
         if remainder == 0:
